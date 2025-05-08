@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+:root {
+    --preto: #090809;
+    --amarelo: #ECA72C;
+    --branco: #F2F4F3;
+
+    --Caveat: 'Caveat', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ box-sizing: border-box;
+ height: 100vh;
+ background-color: var(--preto);
+}
+
+.apresentacao {
+    padding: 8% 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao-imagem {
+    height: 13rem;
+    margin-top: 140px;
+}
+
+.apresentacao-conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 615px;
+    gap: 7px;
+}
+
+.titulo-destaque {
+    color: var(--amarelo);
+}
+.apresentacao-conteudo-titulo {
+    font-size: 87px;
+    font-family: 'Caveat', cursive;
+    color: var(--branco);
+}
+
+.apresentacao-conteudo-links {
+    font-size: 48px;
+    font-family: 'Caveat', cursive;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentacao-conteudo-links-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--amarelo);
+    width: 280px;
+    height: 80px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px 0px;
+    box-shadow: 2px 2px 2px black;
+    border: 2px solid var(--amarelo);
+    transition: 0.2s linear;
+}
+
+.apresentacao-conteudo-links-link:hover {
+    background-color: var(--preto);
+    color: var(--amarelo);
+ /* transform: scale(1.1); */
+    transition: 0.2s linear;
+    border-radius: 4.063rem;
+}
+
+/*.apresentacao-conteudo-links-link:hover::after {
+    content:" agora";
+    font-size:48px;
+}*/
+
+footer {
+    padding: 24px;
+    color: var(--amarelo);
+    font-family: var(--Caveat);
+    position: sticky; 
+    top: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}

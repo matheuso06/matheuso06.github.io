@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+:root {
+    --preto: #090809;
+    --amarelo: #ECA72C;
+    --branco: #F2F4F3;
+
+    --Caveat: 'Caveat', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;   
+    background-color: var(--preto);
+    height: 100vh;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titulo {
+    font-family: var(--Caveat);
+    color: var(--branco);
+    font-size: 5rem;
+}   
+
+.btn {
+    text-decoration: none;
+    color: var(--amarelo);
+    font-family: var(--Caveat);
+    font-size: 3rem;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: var(--branco);
+    transition: 1s;
+}
+
